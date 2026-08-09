@@ -1,0 +1,72 @@
+{
+    "layer": "top",
+    "position": "top", 
+    "height": 40, 
+    "spacing": 6,
+    "modules-left": ["ext/workspaces", "wlr/taskbar"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray", "network", "pulseaudio", "memory", "custom/wlogout"],
+    "ext/workspaces": {
+        "format": "{icon}",
+        "sort-by-number": true,
+        "on-click": "activate"
+    },
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 10,
+        "icon-theme": "Adwaita",
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close"
+    },
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        "interval": 1,
+        "format": "\uf017 {:%a %m-%d %H:%M}",
+        "format-alt": "\uf133 {:%H:%M:%S}",
+	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "cpu": {
+        "interval": 1,
+        "format": " {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "interval": 1,
+        "format": " {used}G",
+        "tooltip": false
+    },
+    "network": {
+        "interval": 1,
+        "format-wifi": " {essid} ({signalStrength}%)",
+        "format-ethernet": "\uf796 {ifname}",
+        "format-linked": " {ifname} (No IP)",
+        "format-disconnected": "⚠ Disconnected",
+        "tooltip-format": " {ifname} {bandwidthUpBits} {bandwidthDownBits}",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-bluetooth-muted": " {icon}",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click-right": "pavucontrol"
+    },
+    "custom/wlogout": {
+	"format":"",
+	"on-click":"wlogout"
+    }
+}

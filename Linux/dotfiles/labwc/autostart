@@ -1,0 +1,11 @@
+uwsm app -- waybar >/dev/null 2>&1 &
+uwsm app -- wlr-randr --output DP-2 --scale 1.67
+# fcitx5
+uwsm app -- fcitx5  &
+uwsm app -- pcmanfm --desktop-pref &
+#uwsm app -- hyprpaper  &
+uwsm app -- firefox &
+wl-paste --watch cliphist store &
+# xwayland 补丁
+#xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2 &
+#echo 'Xft.dpi:192' | xrdb -merge &

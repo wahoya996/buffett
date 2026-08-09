@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu >
+    <menu id="root-menu" label="Applications">
+        <menu id="Editors" label="Editors" icon="/usr/share/icons/Adwaita/symbolic/legacy/accessories-text-editor-symbolic.svg">
+            <item label="Clash Verge" icon="/usr/share/icons/hicolor/32x32/apps/clash-verge.png">
+                <action name="Execute">
+                    <command>clash-verge</command>
+                </action>
+            </item>
+            <item label="Electron 34" icon="/usr/share/pixmaps/electron34.png">
+                <action name="Execute">
+                    <command>electron34</command>
+                </action>
+            </item>
+            <item label="Electron 36" icon="/usr/share/pixmaps/electron36.png">
+                <action name="Execute">
+                    <command>electron36</command>
+                </action>
+            </item>
+            <item label="Electron 37" icon="/usr/share/pixmaps/electron37.png">
+                <action name="Execute">
+                    <command>electron37</command>
+                </action>
+            </item>
+            <item label="Qt Assistant" icon="/usr/share/icons/hicolor/128x128/apps/assistant.png">
+                <action name="Execute">
+                    <command>assistant6</command>
+                </action>
+            </item>
+            <item label="Qt D-Bus Viewer" icon="/usr/share/icons/hicolor/128x128/apps/qdbusviewer.png">
+                <action name="Execute">
+                    <command>qdbusviewer6</command>
+                </action>
+            </item>
+            <item label="Qt Linguist" icon="/usr/share/icons/hicolor/128x128/apps/linguist.png">
+                <action name="Execute">
+                    <command>linguist6</command>
+                </action>
+            </item>
+            <item label="Qt Widgets Designer" icon="/usr/share/icons/hicolor/128x128/apps/designer.png">
+                <action name="Execute">
+                    <command>designer6</command>
+                </action>
+            </item>
+            <item label="Visual Studio Code" icon="/usr/share/pixmaps/visual-studio-code.png">
+                <action name="Execute">
+                    <command>/usr/bin/code</command>
+                </action>
+            </item>
+            <item label="Visual Studio Code - URL Handler" icon="/usr/share/pixmaps/visual-studio-code.png">
+                <action name="Execute">
+                    <command>/usr/bin/code --open-url</command>
+                </action>
+            </item>
+        </menu> <!-- Editors -->
+        <menu id="Games" label="Games" icon="/usr/share/icons/Adwaita/symbolic/categories/applications-games-symbolic.svg">
+            <item label="Age Of Empires II: Definitive Edition">
+                <action name="Execute">
+                    <command>steam steam://rungameid/813780</command>
+                </action>
+            </item>
+            <item label="Europa">
+                <action name="Execute">
+                    <command>steam steam://rungameid/2214880</command>
+                </action>
+            </item>
+            <item label="PySol Fan Club Edition" icon="/usr/share/icons/hicolor/48x48/apps/pysol.png">
+                <action name="Execute">
+                    <command>pysol</command>
+                </action>
+            </item>
+            <item label="Sekiro™: Shadows Die Twice">
+                <action name="Execute">
+                    <command>steam steam://rungameid/814380</command>
+                </action>
+            </item>
+            <item label="Steam" icon="/usr/share/pixmaps/steam.png">
+                <action name="Execute">
+                    <command>/usr/bin/steam</command>
+                </action>
+            </item>
+            <item label="The Elder Scrolls V: Skyrim Special Edition">
+                <action name="Execute">
+                    <command>steam steam://rungameid/489830</command>
+                </action>
+            </item>
+        </menu> <!-- Games -->
+        <menu id="Graphics" label="Graphics" icon="/usr/share/icons/Adwaita/symbolic/categories/applications-graphics-symbolic.svg">
+            <item label="LXImage-Qt" icon="/usr/share/icons/hicolor/48x48/apps/lximage-qt.svg">
+                <action name="Execute">
+                    <command>lximage-qt</command>
+                </action>
+            </item>
+            <item label="Skanlite" icon="/usr/share/icons/hicolor/scalable/apps/org.kde.skanlite.svg">
+                <action name="Execute">
+                    <command>skanlite</command>
+                </action>
+            </item>
+            <item label="Swappy" icon="/usr/share/icons/hicolor/scalable/apps/swappy.svg">
+                <action name="Execute">
+                    <command>swappy -f</command>
+                </action>
+            </item>
+        </menu> <!-- Graphics -->
+        <menu id="Internet" label="Internet" icon="/usr/share/icons/AdwaitaLegacy/48x48/legacy/applications-internet.png">
+            <item label="Avahi SSH Server Browser" icon="/usr/share/icons/AdwaitaLegacy/48x48/legacy/network-wired.png">
+                <action name="Execute">
+                    <command>/usr/bin/bssh</command>
+                </action>
+            </item>
+            <item label="Avahi VNC Server Browser" icon="/usr/share/icons/AdwaitaLegacy/48x48/legacy/network-wired.png">
+                <action name="Execute">
+                    <command>/usr/bin/bvnc</command>
+                </action>
+            </item>
+            <item label="Firefox" icon="/usr/share/icons/hicolor/48x48/apps/firefox.png">
+                <action name="Execute">
+                    <command>/usr/lib/firefox/firefox</command>
+                </action>
+            </item>
+            <item label="Microsoft Edge" icon="/usr/share/icons/hicolor/48x48/apps/microsoft-edge.png">
+                <action name="Execute">
+                    <command>/usr/bin/microsoft-edge-stable</command>
+                </action>
+            </item>
+            <item label="Microsoft Edge" icon="/usr/share/icons/hicolor/48x48/apps/microsoft-edge.png">
+                <action name="Execute">
+                    <command>/usr/bin/microsoft-edge-stable</command>
+                </action>
+            </item>
+            <item label="QBittorrent" icon="/usr/share/icons/hicolor/48x48/apps/qbittorrent.png">
+                <action name="Execute">
+                    <command>qbittorrent</command>
+                </action>
+            </item>
+            <item label="RustDesk" icon="/usr/share/icons/hicolor/256x256/apps/rustdesk.png">
+                <action name="Execute">
+                    <command>rustdesk</command>
+                </action>
+            </item>
+            <item label="Steam" icon="/usr/share/pixmaps/steam.png">
+                <action name="Execute">
+                    <command>/usr/bin/steam</command>
+                </action>
+            </item>
+        </menu> <!-- Internet -->
+        <menu id="Multimedia" label="Multimedia" icon="/usr/share/icons/Adwaita/symbolic/devices/audio-speakers-rtl-symbolic.svg">
+            <item label="Audacious" icon="/usr/share/icons/hicolor/48x48/apps/audacious.png">
+                <action name="Execute">
+                    <command>audacious</command>
+                </action>
+            </item>
+            <item label="MKVToolNix GUI" icon="/usr/share/icons/hicolor/48x48/apps/mkvtoolnix-gui.png">
+                <action name="Execute">
+                    <command>mkvtoolnix-gui</command>
+                </action>
+            </item>
+            <item label="Mpv Media Player" icon="/usr/share/icons/hicolor/32x32/apps/mpv.png">
+                <action name="Execute">
+                    <command>mpv --player-operation-mode=pseudo-gui --</command>
+                </action>
+            </item>
+            <item label="Qt V4L2 Test Utility" icon="/usr/share/icons/hicolor/32x32/apps/qv4l2.png">
+                <action name="Execute">
+                    <command>qv4l2</command>
+                </action>
+            </item>
+            <item label="Qt V4L2 Video Capture Utility" icon="/usr/share/icons/hicolor/32x32/apps/qvidcap.png">
+                <action name="Execute">
+                    <command>qvidcap</command>
+                </action>
+            </item>
+            <item label="VLC Media Player" icon="/usr/share/icons/hicolor/48x48/apps/vlc.png">
+                <action name="Execute">
+                    <command>/usr/bin/vlc --started-from-file</command>
+                </action>
+            </item>
+            <item label="Volume Control" icon="/usr/share/icons/hicolor/scalable/apps/org.pulseaudio.pavucontrol.svg">
+                <action name="Execute">
+                    <command>pavucontrol</command>
+                </action>
+            </item>
+            <item label="WemeetApp" icon="/usr/share/icons/hicolor/scalable/apps/wemeet.svg">
+                <action name="Execute">
+                    <command>wemeet</command>
+                </action>
+            </item>
+        </menu> <!-- Multimedia -->
+        <menu id="Office" label="Office" icon="/usr/share/icons/AdwaitaLegacy/48x48/legacy/applications-office.png">
+            <item label="EverCal" icon="/usr/share/icons/hicolor/scalable/apps/evercal.svg">
+                <action name="Execute">
+                    <command>env EVERCAL_TITLEBAR=0 /opt/EverCal/ever_cal</command>
+                </action>
+            </item>
+            <item label="GoldenDict-ng" icon="/usr/share/pixmaps/goldendict.png">
+                <action name="Execute">
+                    <command>goldendict</command>
+                </action>
+            </item>
+            <item label="Koodo Reader (2.1.7)">
+                <action name="Execute">
+                    <command>/home/wahoya/Applications/Koodo-Reader-2.1.7-x86_64_06f771eb1856753eac5494ce0a52a98c.AppImage --no-sandbox</command>
+                </action>
+            </item>
+            <item label="LibreOffice (25.8.4.2.standard)">
+                <action name="Execute">
+                    <command>/home/wahoya/Applications/LibreOffice-fresh.standard-x86_64.AppImage</command>
+                </action>
+            </item>
+            <item label="Obsidian" icon="/usr/share/pixmaps/obsidian.png">
+                <action name="Execute">
+                    <command>/usr/bin/obsidian</command>
+                </action>
+            </item>
+        </menu> <!-- Office -->
+        <menu id="Settings" label="Settings" icon="/usr/share/icons/Adwaita/symbolic/legacy/preferences-desktop-screensaver-symbolic.svg">
+            <item label="AppImageLauncher Settings" icon="/usr/share/icons/hicolor/32x32/apps/AppImageLauncher.png">
+                <action name="Execute">
+                    <command>AppImageLauncherSettings</command>
+                </action>
+            </item>
+            <item label="Desktop" icon="/usr/share/icons/Adwaita/16x16/places/user-desktop.png">
+                <action name="Execute">
+                    <command>pcmanfm-qt --desktop-pref=general</command>
+                </action>
+            </item>
+            <item label="Fcitx 5 Configuration" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/bin/fcitx5-configtool</command>
+                </action>
+            </item>
+            <item label="Fcitx 5 Configuration" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>fcitx5-config-qt</command>
+                </action>
+            </item>
+            <item label="Fcitx 5 Migration Wizard" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>fcitx5-migrator</command>
+                </action>
+            </item>
+            <item label="Fcitx 5 Qt5 Gui Wrapper" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/lib/fcitx5-qt5-gui-wrapper</command>
+                </action>
+            </item>
+            <item label="Fcitx 5 Qt6 Gui Wrapper" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/lib/fcitx5-qt6-gui-wrapper</command>
+                </action>
+            </item>
+            <item label="GTK Settings" icon="/usr/share/pixmaps/nwg-look.svg">
+                <action name="Execute">
+                    <command>nwg-look</command>
+                </action>
+            </item>
+            <item label="Kvantum Manager" icon="/usr/share/icons/hicolor/scalable/apps/kvantum.svg">
+                <action name="Execute">
+                    <command>kvantummanager</command>
+                </action>
+            </item>
+            <item label="Manage Printing" icon="/usr/share/icons/hicolor/32x32/apps/cups.png">
+                <action name="Execute">
+                    <command>xdg-open http://localhost:631/</command>
+                </action>
+            </item>
+            <item label="Print Settings" icon="/usr/share/icons/Adwaita/scalable/devices/printer.svg">
+                <action name="Execute">
+                    <command>system-config-printer</command>
+                </action>
+            </item>
+            <item label="Uuctl" icon="/usr/share/icons/AdwaitaLegacy/48x48/legacy/applications-system.png">
+                <action name="Execute">
+                    <command>uuctl</command>
+                </action>
+            </item>
+            <item label="Volume Control" icon="/usr/share/icons/hicolor/scalable/apps/org.pulseaudio.pavucontrol.svg">
+                <action name="Execute">
+                    <command>pavucontrol</command>
+                </action>
+            </item>
+        </menu> <!-- Settings -->
+        <menu id="System" label="System" icon="/usr/share/icons/Adwaita/symbolic/categories/applications-system-symbolic.svg">
+            <item label="Avahi Zeroconf Browser" icon="/usr/share/icons/AdwaitaLegacy/48x48/legacy/network-wired.png">
+                <action name="Execute">
+                    <command>/usr/bin/avahi-discover</command>
+                </action>
+            </item>
+            <item label="Btop++" icon="/usr/share/icons/hicolor/48x48/apps/btop.png">
+                <action name="Execute">
+                    <command>foot btop</command>
+                </action>
+            </item>
+            <item label="Dolphin" icon="/usr/share/icons/hicolor/scalable/apps/org.kde.dolphin.svg">
+                <action name="Execute">
+                    <command>dolphin</command>
+                </action>
+            </item>
+            <item label="Fcitx 5" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/bin/fcitx5</command>
+                </action>
+            </item>
+            <item label="Fcitx 5 Wayland Launcher (Experimental)" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/lib/fcitx5-wayland-launcher --reopen</command>
+                </action>
+            </item>
+            <item label="GParted" icon="/usr/share/icons/hicolor/48x48/apps/gparted.png">
+                <action name="Execute">
+                    <command>/usr/bin/gparted</command>
+                </action>
+            </item>
+            <item label="Htop" icon="/usr/share/pixmaps/htop.png">
+                <action name="Execute">
+                    <command>foot htop</command>
+                </action>
+            </item>
+            <item label="Kitty" icon="/usr/share/pixmaps/kitty.png">
+                <action name="Execute">
+                    <command>kitty</command>
+                </action>
+            </item>
+            <item label="Kitty URL Launcher" icon="/usr/share/pixmaps/kitty.png">
+                <action name="Execute">
+                    <command>kitty +open</command>
+                </action>
+            </item>
+            <item label="KWalletManager" icon="/usr/share/icons/hicolor/48x48/apps/kwalletmanager.png">
+                <action name="Execute">
+                    <command>kwalletmanager5</command>
+                </action>
+            </item>
+            <item label="Manage Printing" icon="/usr/share/icons/hicolor/32x32/apps/cups.png">
+                <action name="Execute">
+                    <command>xdg-open http://localhost:631/</command>
+                </action>
+            </item>
+            <item label="Mission Center" icon="/usr/share/icons/hicolor/scalable/apps/io.missioncenter.MissionCenter.svg">
+                <action name="Execute">
+                    <command>missioncenter</command>
+                </action>
+            </item>
+            <item label="Nvtop">
+                <action name="Execute">
+                    <command>foot nvtop</command>
+                </action>
+            </item>
+            <item label="Print Settings" icon="/usr/share/icons/Adwaita/scalable/devices/printer.svg">
+                <action name="Execute">
+                    <command>system-config-printer</command>
+                </action>
+            </item>
+            <item label="Ranger" icon="/usr/share/icons/AdwaitaLegacy/48x48/legacy/utilities-terminal.png">
+                <action name="Execute">
+                    <command>foot ranger</command>
+                </action>
+            </item>
+            <item label="Xwayland">
+                <action name="Execute">
+                    <command>/usr/bin/Xwayland -decorate -displayfd 1</command>
+                </action>
+            </item>
+        </menu> <!-- System -->
+        <menu id="Utilities" label="Utilities" icon="/usr/share/icons/Adwaita/symbolic/categories/applications-utilities-symbolic.svg">
+            <item label="AppImageLauncher" icon="/usr/share/icons/hicolor/32x32/apps/AppImageLauncher.png">
+                <action name="Execute">
+                    <command>AppImageLauncher</command>
+                </action>
+            </item>
+            <item label="AppImageLauncher CLI" icon="/usr/share/icons/hicolor/32x32/apps/AppImageLauncher.png">
+                <action name="Execute">
+                    <command>ail-cli</command>
+                </action>
+            </item>
+            <item label="Appimagelauncherd">
+                <action name="Execute">
+                    <command>foot appimagelauncherd</command>
+                </action>
+            </item>
+            <item label="Ark" icon="/usr/share/icons/breeze-dark/actions/32/qa.svg">
+                <action name="Execute">
+                    <command>ark</command>
+                </action>
+            </item>
+            <item label="Bitwarden" icon="/usr/share/icons/hicolor/32x32/apps/bitwarden.png">
+                <action name="Execute">
+                    <command>bitwarden-desktop</command>
+                </action>
+            </item>
+            <item label="Cherry Studio" icon="/usr/share/icons/hicolor/48x48/apps/cherry-studio-electron.png">
+                <action name="Execute">
+                    <command>cherry-studio-electron</command>
+                </action>
+            </item>
+            <item label="FBReader Book Reader">
+                <action name="Execute">
+                    <command>/home/wahoya/Applications/FBReader_Book_Reader-x86_64-2.1.3_ee8da7068a9e490a40017e27c2c142fe.AppImage</command>
+                </action>
+            </item>
+            <item label="Fcitx 5" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/bin/fcitx5</command>
+                </action>
+            </item>
+            <item label="Fcitx 5 Wayland Launcher (Experimental)" icon="/usr/share/icons/hicolor/48x48/apps/fcitx.png">
+                <action name="Execute">
+                    <command>/usr/lib/fcitx5-wayland-launcher --reopen</command>
+                </action>
+            </item>
+            <item label="Keyboard Layout Viewer" icon="/usr/share/icons/Adwaita/scalable/devices/input-keyboard.svg">
+                <action name="Execute">
+                    <command>kbd-layout-viewer5</command>
+                </action>
+            </item>
+            <item label="KNewStuff Dialog" icon="/usr/share/icons/breeze/actions/24/get-hot-new-stuff.svg">
+                <action name="Execute">
+                    <command>knewstuff-dialog6</command>
+                </action>
+            </item>
+            <item label="Kvantum Manager" icon="/usr/share/icons/hicolor/scalable/apps/kvantum.svg">
+                <action name="Execute">
+                    <command>kvantummanager</command>
+                </action>
+            </item>
+            <item label="LocalSend" icon="/usr/share/icons/hicolor/128x128/apps/localsend.png">
+                <action name="Execute">
+                    <command>localsend</command>
+                </action>
+            </item>
+            <item label="Neovim" icon="/usr/share/pixmaps/nvim.png">
+                <action name="Execute">
+                    <command>foot nvim</command>
+                </action>
+            </item>
+            <item label="Passwords And Keys" icon="/usr/share/icons/hicolor/scalable/apps/org.gnome.seahorse.Application.svg">
+                <action name="Execute">
+                    <command>seahorse</command>
+                </action>
+            </item>
+            <item label="PCManFM-Qt File Manager" icon="/usr/share/icons/hicolor/scalable/apps/pcmanfm-qt.svg">
+                <action name="Execute">
+                    <command>pcmanfm-qt</command>
+                </action>
+            </item>
+            <item label="Pinentry" icon="/usr/share/pixmaps/pinentry.png">
+                <action name="Execute">
+                    <command>/usr/bin/pinentry-qt</command>
+                </action>
+            </item>
+            <item label="Pinentry" icon="/usr/share/pixmaps/pinentry.png">
+                <action name="Execute">
+                    <command>/usr/bin/pinentry-qt5</command>
+                </action>
+            </item>
+            <item label="Qalculate!" icon="/usr/share/icons/hicolor/48x48/apps/qalculate.png">
+                <action name="Execute">
+                    <command>qalculate-gtk</command>
+                </action>
+            </item>
+            <item label="Swappy" icon="/usr/share/icons/hicolor/scalable/apps/swappy.svg">
+                <action name="Execute">
+                    <command>swappy -f</command>
+                </action>
+            </item>
+            <item label="Uuctl" icon="/usr/share/icons/AdwaitaLegacy/48x48/legacy/applications-system.png">
+                <action name="Execute">
+                    <command>uuctl</command>
+                </action>
+            </item>
+            <item label="Visual Studio Code - URL Handler" icon="/usr/share/pixmaps/visual-studio-code.png">
+                <action name="Execute">
+                    <command>/usr/bin/code --open-url</command>
+                </action>
+            </item>
+            <item label="Wechat" icon="/usr/share/icons/hicolor/256x256/apps/wechat.png">
+                <action name="Execute">
+                    <command>/opt/wechat/wechat</command>
+                </action>
+            </item>
+            <item label="Xgps" icon="/usr/share/gpsd/icons/gpsd-logo.png">
+                <action name="Execute">
+                    <command>xgps</command>
+                </action>
+            </item>
+            <item label="Xgpsspeed" icon="/usr/share/gpsd/icons/gpsd-logo.png">
+                <action name="Execute">
+                    <command>xgpsspeed</command>
+                </action>
+            </item>
+        </menu> <!-- Utilities -->
+        <separator />
+        <item label="Terminal">
+            <action name="Execute">
+                <command>foot</command>
+            </action>
+        </item>
+        <item label="Reconfigure" icon="/usr/share/icons/breeze/actions/32/system-reboot.svg">
+            <action name="Reconfigure">
+            </action>
+        </item>
+        <item label="Proton VPN" icon="/usr/share/icons/breeze/devices/24/network-vpn.svg">
+            <action name="Execute">
+                <command>protonvpn-app</command>
+            </action>
+        </item>
+        <item label="Background" icon="/usr/share/icons/breeze/preferences/32/preferences-desktop-wallpaper.svg">
+            <action name="Execute">
+                <command>sh -c &apos;/home/wahoya/.config/rofi/wallselect/wallselect.sh&apos;</command>
+            </action>
+        </item>
+        <item label="Exit" icon="/usr/share/icons/breeze/actions/32/system-log-out.svg">
+            <action name="Exit">
+            </action>
+        </item>
+    </menu>
+</openbox_menu>
