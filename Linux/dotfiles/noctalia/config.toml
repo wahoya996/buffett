@@ -13,7 +13,7 @@ copy_to_clipboard = true
 enable_ddcutil = true
 
 [widget.clock]
-format = "{:%a %m-%d %H:%M}"  # 周六 08-01 10:45（带星期）
+format = "{:%A %m-%d %H:%M}"  # 星期六 08-01 10:45（完整星期）
 
 [control_center]
 hidden_tabs = [ "power" ]
